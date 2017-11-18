@@ -20,5 +20,6 @@ Route::get('/contact', 'PagesController@contact');
 Route::get('/home', 'PagesController@home');
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::post('upload', 'ImagesController@store');
+Route::get('/blog', 'BlogController@index');
 
 Auth::routes();
