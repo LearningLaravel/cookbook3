@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/sweetalert.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="/js/cropper.min.js"></script>
+    <script src="/js/crop.js"></script>
     <script src="/js/load-image.all.min.js"></script>
     <script src="/js/canvas-to-blob.min.js"></script>
     <!-- jQuery File Upload Plugin -->
@@ -19,6 +21,7 @@
     <script src="/js/upload.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.0/parsley.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/cropper.min.css">
     <link rel="stylesheet" href="/css/myapp.css">
 
 </head>
