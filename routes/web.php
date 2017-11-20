@@ -11,6 +11,7 @@
 |
 */
 
+Route::post('imageupload', 'ImagesController@storeImage');
 Route::get('users/register', 'Auth\AuthController@getRegister');
 Route::post('users/register', 'Auth\AuthController@postRegister');
 Route::get('users/login', 'Auth\AuthController@getLogin');
