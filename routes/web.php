@@ -13,6 +13,8 @@
 
 Route::get('users/register', 'Auth\AuthController@getRegister');
 Route::post('users/register', 'Auth\AuthController@postRegister');
+Route::get('users/login', 'Auth\AuthController@getLogin');
+Route::post('users/login', 'Auth\AuthController@postLogin');
 Route::get('login/facebook', 'Auth\AuthController@redirectToFacebook');
 Route::get('login/facebook/callback', 'Auth\AuthController@getFacebookCallback');
 
